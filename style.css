@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    background: #0f172a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #3b82f6, #9333ea);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background: white;
+    color: #333;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.skills {
+    text-align: center;
+    padding: 40px;
+    background: #f1f5f9;
+}
+.projects {
+    text-align: center;
+    padding: 40px;
+}
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
